@@ -1,0 +1,10 @@
+GET https://jsonplaceholder.typicode.com/todos/1 HTTP/1.1
+Accept: application/json
+GET https://api.disneyapi.dev/character HTTP/1.1
+Accept: application/json
+
+GET https://meowfacts.herokuapp.com/ HTTP/1.1
+Accept: application/json
+
+GET https://placebear.com/200/300 HTTP/1.1
+Accept: application/json
