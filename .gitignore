@@ -9,3 +9,5 @@ config/secrets.json
 
 #ignorar archivos .env
 .env
+
+.pem
