@@ -36,7 +36,6 @@ function consultarCatalogo(req,res,next){
 function eliminarPelicula(req, res) {
     const { id } = req.params; 
     
-    // Consulta SQL para eliminar el registro
     const sql = 'DELETE FROM peliculas_series WHERE id = ?';
 
     conexion.query(sql, [id], (err, result) => {

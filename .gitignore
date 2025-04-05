@@ -1,0 +1,8 @@
+#ignorar todos los archivos log
+*.log
+
+#ignorar la carpetaa 'node_modules'
+node_modules/
+
+#ignorar archivos especificos
+config/secrets.json

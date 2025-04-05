@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        title Detalles de Película o Serie
+        link(rel="stylesheet", href="/styles.css")
+    body
+        h1 #{pelicula.titulo}
+        p Género: #{pelicula.genero}
+        p Anio: #{pelicula.anio}
+        p Calificación: #{pelicula.calificacion}
+        p Fecha Visto: #{pelicula.fecha_visto}
+        p Inicio: #{pelicula.fecha_inicio}
+        p Fin: #{pelicula.fecha_fin}
+
+        h2 Director
+        p Nombre: #{pelicula._embedded.director.nombre}
+        p Biografía: #{pelicula._embedded.director.biografia}
+        p Nacionalidad: #{pelicula._embedded.director.nacionalidad}

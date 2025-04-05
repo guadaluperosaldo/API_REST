@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title Catálogo de Películas y Series
+    body
+        h1 Catálogo de Películas y Series
+        ul
+            each pelicula in peliculas
+                li
+                    a(href=`/catalogo/${pelicula.id}`) #{pelicula.titulo} - #{pelicula.genero} (#{pelicula.anio})
