@@ -11,4 +11,4 @@ config/secrets.json
 .env
 
 #ignorar archivos .pem
-.pem
+*.pem
