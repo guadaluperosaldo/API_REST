@@ -6,3 +6,6 @@ node_modules/
 
 #ignorar archivos especificos
 config/secrets.json
+
+#ignorar archivos .env
+.env
